@@ -6,4 +6,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Backend\EstimaNow.Application\EstimaNow.Application.csproj" />
+    <ProjectReference Include="..\..\Backend\EstimaNow.Domain\EstimaNow.Domain.csproj" />
+    <ProjectReference Include="..\..\Backend\EstimaNow.Infrastructure\EstimaNow.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
