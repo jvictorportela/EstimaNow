@@ -1,1 +1,12 @@
-<Solution />
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Backend/">
+    <Project Path="src/Backend/EstimaNow.Application/EstimaNow.Application.csproj" Id="827b0c63-38e1-4586-b988-ea0e6ee28f35" />
+    <Project Path="src/Backend/EstimaNow.Domain/EstimaNow.Domain.csproj" Id="abe0eaae-c852-4d5a-a4a4-d1a4a4f834dc" />
+    <Project Path="src/Backend/EstimaNow.Infrastructure/EstimaNow.Infrastructure.csproj" Id="6b9706cc-f64e-4790-9792-bb1a6838569c" />
+  </Folder>
+  <Folder Name="/src/Frontend/">
+    <Project Path="src/Frontend/EstimaNow.Web/EstimaNow.Web.csproj" Id="09cb23ff-5522-4065-bffb-cac9316c01e7" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
